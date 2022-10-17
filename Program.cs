@@ -16,7 +16,7 @@ namespace wavfix
         var fileName = Path.GetFileName(path);
         var outPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, fileName);
 
-        if(File.Exists(path))
+        if(File.Exists(path) && path.ToLower().EndsWith(".wav"))
         {
           Console.WriteLine("Inspecting {0}...", fileName);
 
