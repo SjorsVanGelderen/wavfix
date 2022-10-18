@@ -27,9 +27,6 @@ namespace wavfix
           {
             fs.Position = 20;
             fs.Read(format, 0, expectedFormat.Length);
-
-            fs.Close();
-            fs.Dispose();
           }
 
           if(format[0].Equals(expectedFormat[0]) && format[1].Equals(expectedFormat[1]))
