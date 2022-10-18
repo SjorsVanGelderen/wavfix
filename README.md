@@ -1,5 +1,5 @@
 # wavfix
-Fixing utility for E-8305: Unsupported File Format with WAV files on Pioneer CDJ
+Utility that fixes E-8305: Unsupported File Format with WAV files on Pioneer CDJ
 
 ## Usage
 1. Select all WAV files you want to fix in Explorer
